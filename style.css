@@ -228,7 +228,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgb(0, 0, 0);
+	background-color: rgba(37, 32, 32, 0.904);
 	border-bottom: 5px solid grey;
 }
 
@@ -241,7 +241,11 @@ button {
 .col-double {
 	width: calc(100% / 3);
 	height: 100%;
-	background-color: black;
+	
+}
+
+.col-single{
+	width: calc(100% / 6);
 }
 
 .col-double h1 {
@@ -264,10 +268,11 @@ span{
 /*  Modifiche icon */
 .icons{
 	margin-top: 20px;
+	margin-right: 80px;
 	display: flex;
-	justify-content: space-around;
-	font-size: 20px;
-	background-color: black;
+	justify-content: space-between;
+	font-size: 18px;
+	
 	color: rgb(29, 27, 27);
 }
 
@@ -276,6 +281,19 @@ span{
 	background-color: white;
 }
 
+/* Lista */
+.col-single :not(:first-child){
+	color: white;
+	display: flex;
+	font-size: 12px;
+}
+
+.title-menu{
+	color: cornflowerblue;
+	font-size: 12px;
+	margin-left: 0px;;
+	
+}
 
 /* Footer con navabr*/
 .layout-footer {
