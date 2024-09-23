@@ -163,9 +163,26 @@ button {
 	height: 250px;
 	width: 700px;
 }
+.col-img-voice {
+	width: 60%;
+	height: 100%;
+	background-image: url(./img/item2.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* 4° Layout */
+.col-img-coach{
+	width: 60%;
+	height: 100%;
+	background-image: url(./img/item3.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
 
 /* 5° Layout */
-
 .card-5 {
 	height: 550px;
 	background-color: rgba(184, 172, 172, 0.904);
@@ -183,14 +200,6 @@ button {
 	align-items: flex-start;
 }
 
-.col-img-voice {
-	width: 60%;
-	height: 100%;
-	background-image: url(./img/item3.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-}
 
 /* 6° Layout */
 .card-6 {
