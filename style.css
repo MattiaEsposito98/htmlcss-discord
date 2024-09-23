@@ -215,6 +215,10 @@ button {
 	background-repeat: no-repeat;
 	background-size: auto;
 }
+.position-button button{
+	background-color:rgb(52, 128, 241);
+	color: white;
+}
 
 
 /* 6° Layout */
