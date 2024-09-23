@@ -45,6 +45,7 @@ button {
 	padding: 20px;
 }
 
+
 /* Navbar  */
 .navbar {
 	height: 50px;
@@ -70,8 +71,8 @@ button {
 	line-height: 20px;
 	padding: 10px 20px 11px;
 	text-align: center;
-
 }
+
 
 /* Layout */
 .card {
@@ -86,8 +87,6 @@ button {
 }
 
 .container {
-	/* max-height: 400px;
-	height: 350px; */
 	width: 700px;
 	align-content: center;
 }
@@ -102,7 +101,7 @@ button {
 }
 
 .discord-browser {
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 	color: white;
 	margin-left: 12px;
 }
@@ -118,7 +117,6 @@ button {
 }
 
 .card-2 .container {
-	max-height: 300px;
 	height: 250px;
 	width: 700px;
 	background-image: url(./img/item1.svg);
@@ -159,10 +157,10 @@ button {
 }
 
 .card-3 .container {
-	max-height: 300px;
 	height: 250px;
 	width: 700px;
 }
+
 .col-img-voice {
 	width: 60%;
 	height: 100%;
@@ -171,6 +169,7 @@ button {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+
 
 /* 4° Layout */
 .col-img-coach{
@@ -182,6 +181,7 @@ button {
 	background-size: contain;
 }
 
+
 /* 5° Layout */
 .card-5 {
 	height: 550px;
@@ -190,6 +190,7 @@ button {
 	justify-content: center;
 	align-items: center;
 }
+
 .card-5 .container{
 	height: 500px;
 }
@@ -215,7 +216,8 @@ button {
 	background-repeat: no-repeat;
 	background-size: auto;
 }
-.position-button button{
+
+.button-download{
 	background-color:rgb(52, 128, 241);
 	color: white;
 }
@@ -223,17 +225,16 @@ button {
 
 /* 6° Layout */
 .card-6 {
-	height: 350px;
+	height: 500px;
 	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(37, 32, 32, 0.904);
-	border-bottom: 5px solid grey;
+	border-bottom: 3px solid cornflowerblue;
 }
 
 .card-6 .container {
-	max-height: 300px;
 	height: 250px;
 	width: 700px;
 }
@@ -241,7 +242,6 @@ button {
 .col-double {
 	width: calc(100% / 3);
 	height: 100%;
-	
 }
 
 .col-single{
@@ -262,8 +262,8 @@ span{
 	display: flex;
 	align-items: center;
 	margin-left: 12px;
-
 }
+
 
 /*  Modifiche icon */
 .icons{
@@ -281,6 +281,7 @@ span{
 	background-color: white;
 }
 
+
 /* Lista */
 .col-single :not(:first-child){
 	color: white;
@@ -297,7 +298,7 @@ span{
 
 /* Footer con navabr*/
 .layout-footer {
-	background-color: black;
+	background-color: rgba(37, 32, 32, 0.904);
 	display: flex;
 	justify-content: center;
 	align-items: space-between;
@@ -306,20 +307,16 @@ span{
 .navbar-footer {
 	width: 700px;
 	height: 70px;
-	background-color: aquamarine;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .logo-footer {
-	background-color: pink;
-	border: 1px dashed black;
 	font-size: 20x;
 }
 
-.button {
-	background-color: pink;
-	border: 1px dashed black;
-	font-size: 20x;
+.button-record {
+	background-color: rgb(52, 128, 241);;
+	color: white;
 }
