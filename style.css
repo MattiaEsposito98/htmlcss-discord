@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: "Signika Negative", sans-serif;  
+	font-family: "Signika Negative", sans-serif;
 }
 
 a {
@@ -36,13 +36,13 @@ button {
 	padding: 11px 20px 11px;
 	text-align: center;
 	margin-top: 12px;
-	}
+}
 
 .p-center {
 	text-align: center;
 	color: white;
 	font-size: 16px;
-	padding:20px;
+	padding: 20px;
 }
 
 /* Navbar  */
@@ -75,7 +75,7 @@ button {
 
 /* Layout */
 .card {
-	height: 250px;
+	height: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -87,29 +87,30 @@ button {
 
 .container {
 	max-height: 300px;
-	height: 250px;
+	height: 350px;
 	width: 700px;
 	align-content: center;
 }
 
 .container .title-container {
-	color:white;
+	color: white;
 }
-.position-button{
+
+.position-button {
 	display: flex;
 	justify-content: center;
-	}
+}
 
-.discord-browser{
+.discord-browser {
 	background-color: black;
 	color: white;
-	margin-left:12px;
+	margin-left: 12px;
 }
 
 
 /*  2 Layout */
 .card-2 {
-	height: 250px;
+	height: 350px;
 	background-color: white;
 	display: flex;
 	justify-content: center;
@@ -139,29 +140,28 @@ button {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-} 
+}
 
 .col-2 {
 	align-content: center;
 	width: 40%;
 	height: 100%;
-} 
+}
 
 /*  Layout 3 */
 .card-3 {
-	height: 250px;
+	height: 350px;
 	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(184, 172, 172, 0.904);
+	background-color: rgba(230, 230, 230, 0.973);
 }
 
 .card-3 .container {
 	max-height: 300px;
-	height: 180px;
+	height: 250px;
 	width: 700px;
-	border: 1px solid black;
 }
 
 /* 5° Layout */
@@ -183,9 +183,18 @@ button {
 	align-items: flex-start;
 }
 
+.col-img-voice {
+	width: 60%;
+	height: 100%;
+	background-image: url(./img/item3.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 /* 6° Layout */
 .card-6 {
-	height: 250px;
+	height: 350px;
 	background-color: white;
 	display: flex;
 	justify-content: center;
@@ -226,7 +235,7 @@ button {
 
 .navbar-footer {
 	width: 700px;
-	height: 50px;
+	height: 70px;
 	background-color: aquamarine;
 	display: flex;
 	justify-content: space-between;
