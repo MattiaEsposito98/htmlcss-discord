@@ -36,14 +36,13 @@ button {
 	padding: 11px 20px 11px;
 	text-align: center;
 	margin-top: 12px;
-}
+	}
 
 .p-center {
 	text-align: center;
 	color: white;
 	font-size: 16px;
 	padding:20px;
-
 }
 
 /* Navbar  */
@@ -69,7 +68,7 @@ button {
 	border-radius: 120px;
 	font-size: 16px;
 	line-height: 20px;
-	padding: 11px 20px 11px;
+	padding: 10px 20px 11px;
 	text-align: center;
 
 }
@@ -84,8 +83,6 @@ button {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
-
 }
 
 .container {
@@ -98,10 +95,15 @@ button {
 .container .title-container {
 	color:white;
 }
+.position-button{
+	display: flex;
+	justify-content: center;
+	}
 
 .discord-browser{
 	background-color: black;
 	color: white;
+	margin-left:12px;
 }
 
 
